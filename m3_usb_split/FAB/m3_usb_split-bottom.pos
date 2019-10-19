@@ -1,0 +1,10 @@
+### Module positions - created on 10/08/18 17:22:55 ###
+### Printed by Pcbnew version kicad (5.0.0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C1        10uF      C_1210            -115.0000  -136.5000  270.0000  bottom
+C2        10uF      C_1210            -115.0000  -119.5000  270.0000  bottom
+R1        0R        R_0805            -111.0000  -131.5000  270.0000  bottom
+U1        TPS2514A  SOT-23-6          -114.0000  -131.5000  270.0000  bottom
+## End

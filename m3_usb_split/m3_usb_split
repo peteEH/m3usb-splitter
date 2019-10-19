@@ -1,0 +1,27 @@
+"Source:","C:\Users\Peter\Documents\Model 3 USB Ports\m3_usb_split\m3_usb_split.sch"
+"Date:","2018-10-13 11:11:46 AM"
+"Tool:","Eeschema (5.0.0)"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
+"","","C1","10uF","Device:C","Capacitors_SMD:C_1210","~","","","","","","","","",""
+"","","C2","10uF","Device:C","Capacitors_SMD:C_1210","~","","","","","","","","",""
+"","","J1","UP2-AH-1-TH","dk_USB-DVI-HDMI-Connectors:UP2-AH-1-TH","digikey-footprints:USB_Male_A_UP2-AH-1-TH","http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf","Connectors, Interconnects","http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf","/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911","USB PLUG 2.0, STANDARD A TYPE, 4","102-3996-ND","USB, DVI, HDMI Connectors","UP2-AH-1-TH","CUI Inc.","Active"
+"","","J2","UE27AC54100","dk_USB-DVI-HDMI-Connectors:UE27AC54100","digikey-footprints:USB_A_Female_UE27AC54100","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","Connectors, Interconnects","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253","CONN RCPT USB TYPE A R/A GOLD","UE27AC54100-ND","USB, DVI, HDMI Connectors","UE27AC54100","Amphenol Commercial Products","Active"
+"","","J3","UE27AC54100","dk_USB-DVI-HDMI-Connectors:UE27AC54100","digikey-footprints:USB_A_Female_UE27AC54100","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","Connectors, Interconnects","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253","CONN RCPT USB TYPE A R/A GOLD","UE27AC54100-ND","USB, DVI, HDMI Connectors","UE27AC54100","Amphenol Commercial Products","Active"
+"","","R1","0R","Device:R_Small","Resistors_SMD:R_0805","~","","","","","","","","",""
+"","","U1","TPS2514A","Interface_USB:TPS2514A","TO_SOT_Packages_SMD:SOT-23-6","http://www.ti.com/lit/ds/symlink/tps2513.pdf","","","","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
+"1","2","C1, C2","10uF","Device:C","Capacitors_SMD:C_1210","~","","","","","","","","",""
+"2","1","J1","UP2-AH-1-TH","dk_USB-DVI-HDMI-Connectors:UP2-AH-1-TH","digikey-footprints:USB_Male_A_UP2-AH-1-TH","http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf","Connectors, Interconnects","http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf","/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911","USB PLUG 2.0, STANDARD A TYPE, 4","102-3996-ND","USB, DVI, HDMI Connectors","UP2-AH-1-TH","CUI Inc.","Active"
+"3","2","J2, J3","UE27AC54100","dk_USB-DVI-HDMI-Connectors:UE27AC54100","digikey-footprints:USB_A_Female_UE27AC54100","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","Connectors, Interconnects","https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf","/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253","CONN RCPT USB TYPE A R/A GOLD","UE27AC54100-ND","USB, DVI, HDMI Connectors","UE27AC54100","Amphenol Commercial Products","Active"
+"4","1","R1","0R","Device:R_Small","Resistors_SMD:R_0805","~","","","","","","","","",""
+"5","1","U1","TPS2514A","Interface_USB:TPS2514A","TO_SOT_Packages_SMD:SOT-23-6","http://www.ti.com/lit/ds/symlink/tps2513.pdf","","","","","","","","",""

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Peter\Documents\Model 3 USB Ports\m3_usb_split\m3_usb_split.sch</source>
+    <date>2018-10-13 11:11:46 AM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Model 3 Dual USB Adaptor</title>
+        <company/>
+        <rev>01</rev>
+        <date>2018-09-30</date>
+        <source>m3_usb_split.sch</source>
+        <comment number="1" value="Charge Port + Data Port Breakout"/>
+        <comment number="2" value="for use with the dashcam feature while preserving the charging port capability"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>UP2-AH-1-TH</value>
+      <footprint>digikey-footprints:USB_Male_A_UP2-AH-1-TH</footprint>
+      <datasheet>http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911</field>
+        <field name="Description">USB PLUG 2.0, STANDARD A TYPE, 4</field>
+        <field name="Digi-Key_PN">102-3996-ND</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="MPN">UP2-AH-1-TH</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="UP2-AH-1-TH" description="USB PLUG 2.0, STANDARD A TYPE, 4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAF86C6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>UE27AC54100</value>
+      <footprint>digikey-footprints:USB_A_Female_UE27AC54100</footprint>
+      <datasheet>https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253</field>
+        <field name="Description">CONN RCPT USB TYPE A R/A GOLD</field>
+        <field name="Digi-Key_PN">UE27AC54100-ND</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="MPN">UE27AC54100</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="UE27AC54100" description="CONN RCPT USB TYPE A R/A GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAF8A49</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>UE27AC54100</value>
+      <footprint>digikey-footprints:USB_A_Female_UE27AC54100</footprint>
+      <datasheet>https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253</field>
+        <field name="Description">CONN RCPT USB TYPE A R/A GOLD</field>
+        <field name="Digi-Key_PN">UE27AC54100-ND</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="MPN">UE27AC54100</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="UE27AC54100" description="CONN RCPT USB TYPE A R/A GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAF8B1A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS2514A</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps2513.pdf</datasheet>
+      <libsource lib="Interface_USB" part="TPS2514A" description="USB Dedicated Charging Port Controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB141BD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB15447</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB1CDE5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB1E085</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="TPS2514">
+      <aliases>
+        <alias>TPS2514A</alias>
+      </aliases>
+      <description>USB Dedicated Charging Port Controller</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps2513.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2514</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DP1" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="IN" type="power_in"/>
+        <pin num="6" name="DM1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_USB-DVI-HDMI-Connectors" part="UE27AC54100">
+      <description>CONN RCPT USB TYPE A R/A GOLD</description>
+      <docs>https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UE27AC54100</field>
+        <field name="Footprint">digikey-footprints:USB_A_Female_UE27AC54100</field>
+        <field name="Datasheet">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
+        <field name="Digi-Key_PN">UE27AC54100-ND</field>
+        <field name="MPN">UE27AC54100</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-commercial-products/UE27AC54100/UE27AC54100-ND/1972253</field>
+        <field name="Description">CONN RCPT USB TYPE A R/A GOLD</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="DATA-" type="BiDi"/>
+        <pin num="3" name="DATA+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_USB-DVI-HDMI-Connectors" part="UP2-AH-1-TH">
+      <description>USB PLUG 2.0, STANDARD A TYPE, 4</description>
+      <docs>http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UP2-AH-1-TH</field>
+        <field name="Footprint">digikey-footprints:USB_Male_A_UP2-AH-1-TH</field>
+        <field name="Datasheet">http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf</field>
+        <field name="Digi-Key_PN">102-3996-ND</field>
+        <field name="MPN">UP2-AH-1-TH</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="DK_Datasheet_Link">http://www.cui.com/product/resource/digikeypdf/up2-ah-th.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/UP2-AH-1-TH/102-3996-ND/6187911</field>
+        <field name="Description">USB PLUG 2.0, STANDARD A TYPE, 4</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="R+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_USB.lib</uri>
+    </library>
+    <library logical="dk_USB-DVI-HDMI-Connectors">
+      <uri>C:/Users/Peter/Documents/KiCadLib/digikey-kicad-library-master/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VBUS">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>
