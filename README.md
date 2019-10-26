@@ -15,3 +15,10 @@ Typical use case:
 
 --- Samsung T5 500GB SSD plugs into the data port
 --- included tesla charging cable for docking plugs into the power only port
+
+
+## LICENSE ##
+Hardware License is Creative Commons - Attribution 3.0
+
+Feel free to use these files to learn, explore electronics.
+
