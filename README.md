@@ -17,6 +17,21 @@ Typical use case:
 --- included tesla charging cable for docking plugs into the power only port
 
 
+BOM (exact or similar PNs):
+(minimal)
+
+2x UE27AC54100  USB Type A Receptacle - Right Angle, Through Hole
+1x UP2-AH-1-TH  USB Type A Plug - Right Angle, Through Hole
+1x 10uF, 0805, 10V Capacitor
+1x 0 Ohm, 0805 Resistor
+1x PCB (i.e. JLC or similar - about $2)
+
+
+(with dedicated charger chip - add these parts)
+1x TPS2514A   Dedicated D+/D- charger ID chip
+1x 10uF, 0805, 10V Capacitor
+
+
 ## LICENSE ##
 Hardware License is Creative Commons - Attribution 3.0
 
