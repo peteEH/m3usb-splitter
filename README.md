@@ -31,6 +31,12 @@ BOM (exact or similar PNs):
 1x TPS2514A   Dedicated D+/D- charger ID chip
 1x 10uF, 0805, 10V Capacitor
 
+![m3_splitter_version1](https://user-images.githubusercontent.com/18383371/128605197-a3c498fd-990f-477f-a5fd-6bace6192df8.png)
+![m3_splitter_version2](https://user-images.githubusercontent.com/18383371/128605199-c406d325-0821-4bf2-985c-0d6608de0f91.png)
+![stacked_bot](https://user-images.githubusercontent.com/18383371/128605201-5e384c24-d7c3-4305-a3e0-60f807e7e320.PNG)
+![stacked_top](https://user-images.githubusercontent.com/18383371/128605203-6de2f09e-8246-44c0-a69c-5600ef560c40.PNG)
+
+
 
 ## LICENSE ##
 Hardware License is Creative Commons - Attribution 3.0
